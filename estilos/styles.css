@@ -1,0 +1,208 @@
+html, body  {
+  font-family: "Segoe UI";
+  padding: 0px;
+  margin: 0px;
+  font-size: 27px;
+}
+
+nav{
+  background-color: #E9E9E9;
+   display: flex;   /* Hará que de nuevo el menú esté en la parte superior (mis opciones)*/
+   padding: 10px;
+   padding-left: 20px;
+   color: white;
+   /* justify-content: space-between; */
+   /* align-items: center; */
+}
+.nav_options{
+  margin:auto;
+  margin-left: 10px;
+}
+nav ul{
+  display: flex;
+  margin-top: -1px;
+}
+nav li {
+  padding-left: 30px;
+  list-style: none;
+}
+nav li a{
+  color: black;
+  text-decoration: none;   /* Esto es para quitar el formato de hipervinculo (azul subrayado)  */
+}
+nav li a:hover {   /* Hover es para que cuando el mouse pase sobre las letras estas cambien de color  */
+ color: gray;
+}
+.iconos{
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+/* AQUÍ TERMINAN ESTILOS DE HEADER */
+
+.frase{
+  text-align: center;
+  font-family: "Helvetica LT Std";
+  font-size: 30px;
+  padding: 40px;
+}
+
+.ultimos {
+  font-family: "Myriad Pro";
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+.product .content{
+  /* max-height: 40px; */
+  padding: 25px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* AQUÍ TERMINAN PRODUCTOS */
+
+.beneficios {
+  font-family: "Myriad Pro";
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.beneficios{
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+.beneficio .content{
+  /* max-height: 40px; */
+  padding: 25px;
+  text-align:center;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* AQUÍ TERMINAN BENEFICIOS */
+.menciones {
+  font-family: "Myriad Pro";
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.menciones2{
+  display: flex;
+}
+.menciones2 .content{
+  padding-left: 125px;
+}
+
+
+.menciones3{
+  display: flex;
+}
+.menciones3 .content{
+  padding-left: 125px;
+}
+
+
+.menciones4{
+  display: flex;
+}
+.menciones4 .content{
+  padding-left: 125px;
+}
+
+
+.menciones .contentext{
+  padding: 25px;
+  text-align: left;
+  font-size: 18px;
+}
+.img_content2{
+  padding-left: 70px;
+  margin-top: 120px;
+}
+
+/* AQUÍ TERMINAN MENCIONES */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: #ECECEC;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 90px
+  color: black;
+}
+
+.logos{
+  padding-right: 40px;
+  shape-margin: 10px;
+  margin-top: 10px;
+}
+
+/* TERMINA FOOTER */
+
+/* SECCION TODOS LOS PRODUCTOS */
+
+.frases{
+  text-align: center;
+  font-family: "Myriad Pro";
+  font-size: 25px;
+  padding: 40px;
+}
+.tproducts{
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  margin-top: 10px;
+}
+.tproduct .content{
+  /* max-height: 40px; */
+  padding: 25px;
+  text-align: left;
+  font-size: 19px;
+  padding-bottom: 110px;
+}
+div a{
+  color: black;
+  text-decoration: none;   /* Esto es para quitar el formato de hipervinculo (azul subrayado)  */
+}
+div a:hover {   /* Hover es para que cuando el mouse pase sobre las letras estas cambien de color  */
+ color: gray;
+}
+
+/* TERMINAN TODOS LOS PRODUCTOS */
+
+.venta1{
+  display: flex;
+}
+.venta1 .content{
+  padding-left: 125px;
+  padding-top: 80px;
+}
+
+.venta1 .contentext{
+  padding: 25px;
+  text-align: left;
+  font-size: 40px;
+}
+.img_content2{
+  padding-left: 70px;
+  margin-top: 50px;
+}
+
+/* TERMINAN ESTILOS DE LAS VENTAS */
+
+.contenido{
+  padding: 45px;
+  font-size: 17px;
+}
